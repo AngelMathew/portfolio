@@ -15,7 +15,7 @@ const Header=()=>{
         <ul className={styles.mainNavLink}>
             <li className={styles.navLinks}> <a  href="/"
             className={
-              currentPath === "/"
+              currentPath === "/portfolio"
                 ? styles.navLink + " " + styles.selected
                 : styles.navLink
             }>About</a></li>
