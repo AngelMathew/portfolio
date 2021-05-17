@@ -13,7 +13,7 @@ const Header=()=>{
         <div className={styles.textClass}><a href="/" aria-label="home"><img src={Logo}></img></a></div>
         
         <ul className={styles.mainNavLink}>
-            <li className={styles.navLinks}> <a  href="/"
+            <li className={styles.navLinks}> <a  href="/portfolio"
             className={
               currentPath === "/portfolio"
                 ? styles.navLink + " " + styles.selected
