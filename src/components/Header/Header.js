@@ -20,7 +20,7 @@ const Header=()=>{
                 : styles.navLink
             }>About</a></li>
             <li className={styles.navLink}>
-                <a onClick={()=>scrollToBottom()}>Contacts</a></li>
+                <a onClick={()=>scrollToBottom()}>Contact</a></li>
         </ul>
     </div>)
 
