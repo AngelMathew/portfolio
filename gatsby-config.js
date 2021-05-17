@@ -3,4 +3,6 @@ module.exports = {
     title: "My Gatsby Site",
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-gatsby-cloud"],
+  pathPrefix: "/portfolio",
+  
 };

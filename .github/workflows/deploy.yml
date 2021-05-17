@@ -1,15 +1,17 @@
-name: Publish Portfolio
+name: Gatsby Publish
 
 on:
   push:
-    branches: [dev]
+    branches:
+      - dev
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
-          access-token: ${{ secrets.PORTFOLIO}}
-          deploy-branch:  master
+          access-token: ${{ secrets.PORTFOLIO }}
+          deploy-branch: gh-pages
+          gatsby-args: --prefix-paths
