@@ -5,7 +5,7 @@ import Logo from "../../assets/Logo.svg";
 
 const Header=()=>{
     const currentPath = useLocation().pathname;
-    console.log("currentpath",currentPath)
+    // console.log("currentpath",currentPath)
     const scrollToBottom=()=>{
        window.scrollTo(0,document.body.scrollHeight);
        }
@@ -16,7 +16,7 @@ const Header=()=>{
         <ul className={styles.mainNavLink}>
             <li className={styles.navLinks}> <a  href="/portfolio"
             className={
-              currentPath === "/portfolio"
+              currentPath === "/portfolio/"
                 ? styles.navLink + " " + styles.selected
                 : styles.navLink
             }>About</a></li>
