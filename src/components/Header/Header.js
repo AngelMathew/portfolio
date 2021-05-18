@@ -5,12 +5,13 @@ import Logo from "../../assets/Logo.svg";
 
 const Header=()=>{
     const currentPath = useLocation().pathname;
+    console.log("currentpath",currentPath)
     const scrollToBottom=()=>{
        window.scrollTo(0,document.body.scrollHeight);
        }
 
     return(<div className={styles.header}>
-        <div className={styles.textClass}><a href="/" aria-label="home"><img src={Logo}></img></a></div>
+        <div className={styles.textClass}><a href="/portfolio" aria-label="home"><img src={Logo}></img></a></div>
         
         <ul className={styles.mainNavLink}>
             <li className={styles.navLinks}> <a  href="/portfolio"
