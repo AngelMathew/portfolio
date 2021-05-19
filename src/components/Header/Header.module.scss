@@ -10,7 +10,7 @@
     padding: .5em 0;
     align-items: center;
     // height: 70px;
-    box-shadow: 0px 2px 40px rgba(60, 145, 245, 0.3);
+    box-shadow: 0px 2px 40px $background__shadow;
 }
 .headerElements{
   grid-column: 1/8;
@@ -19,28 +19,28 @@
 .mainNavLink{
   grid-column: 3/12;
   margin-left: auto;
-  color: $font__color__two;
+  color: $secondary__text;
 }
 
 .navLink {
-    color: $font__color__two;
+    color: $secondary__text;
     margin-bottom: 0.5em;
     padding-bottom: .3em;
 
     &.selected {
-      border-bottom: 3px solid $selected__color;
+      border-bottom: 3px solid $highlight__text;
     }
-    button{
-      outline:none;
-      background-color: transparent;
-      border:none;
-      color:$font__color__two;
-      font-size: $max_font;
+    // button{
+    //   outline:none;
+    //   background-color: transparent;
+    //   border:none;
+    //   color:$font__color__two;
+    //   font-size: $max_font;
       
-    }
+    // }
   }
   .navLink:hover{
-    border-bottom: 3px solid $selected__color;
+    border-bottom: 3px solid $highlight__text;
   }
 ul{
     li{

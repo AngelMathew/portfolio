@@ -5,20 +5,21 @@
     border-radius: 4px;
     padding:.75em;
     border:none;
-    color:$font__color__two;
+    color:$secondary__text;
     cursor:pointer;
-    background-color: $font__color__one;
+    background-color:$cta__color;
     font-family: "MarkPro";
     font-size: $max_font;
 }
 .button:after {
   content: ' 👩🏻‍💻';
+  
 }
 .button:hover:after {
   content: ' 🙋🏻‍♀️'; 
 }
 .button:hover {
-  box-shadow: 2px 4px 20px $font__color__one;
+  box-shadow: 2px 4px 20px $cta__color;
 }
  
 

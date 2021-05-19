@@ -4,9 +4,10 @@ import Info from "../components/Info/Info";
 import Contact from "../components/Contact/Contact";
 const Home=()=>{
     return(<>
-        <Header/>
-        <Info/>
-       <Contact/>
+    <header><Header/></header>
+        <section><Info/></section>
+        
+       <footer><Contact/></footer>
        </>
     )
 }

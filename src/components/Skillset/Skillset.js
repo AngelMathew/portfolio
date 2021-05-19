@@ -3,6 +3,7 @@ import * as styles from "./Skillset.module.scss";
 import Vector from "../../assets/Vector.svg";
 import AOS from 'aos';
 import "aos/dist/aos.css";
+import Pets from "../../assets/Pets.svg";
 
 const Skillset=()=>{
     useEffect(() => {
@@ -15,10 +16,10 @@ const Skillset=()=>{
     return(
     <div className={styles.skillSet}  data-aos="fade">
          <div className={styles.skillSetSummary} >
-            <img className={styles.backgroundImage} src={Vector}></img>
+            <img className={styles.backgroundImage} src={Vector} alt="Background"></img>
             <h2>About</h2>
             <span>
-            I originally hail from a little place called Kerala in India,  and for the last few years, I’ve been in Canada. 
+            I hail from a small coastal region called Kerala in India,  and for the last few years, I’ve been in Canada. 
             Before Bell, I did Master of Engineering degree in Inter-networking at Dalhousie University (Dal), Halifax. 
             Besides my studies at Dal, I also worked as a Python Lab assistant, helping students with Python language, Flask framework, and Git version control. 
             </span>
@@ -31,7 +32,7 @@ const Skillset=()=>{
             </span>
             <span>Apart from UI/UX, I have an interest in full-stack development, in particular, I enjoy coding in Python.</span>
             <br></br>
-            <span>In my off time, you will find me cooking, working out, or watching adorable animal videos( especially  🐶 🐱 🐰 ).</span>
+            <span aria-label="cooking, working out , watching dog cat and bunny videos">*In my off time, you will find me cooking, working out, or watching adorable animal videos, especially 🐶 🐱 🐰 .</span>
             <h3>Skills :</h3>
             
             <div className={styles.lineVerical}></div>

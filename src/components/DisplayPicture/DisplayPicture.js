@@ -1,7 +1,7 @@
 import React from "react";
 import * as styles from "./DisplayPicture.module.scss";
 // import DisplayPhoto from "../../assets/DisplayPhoto2.jpg"
-import DisplayPhoto from "../../assets/Dp.jpg"
+import DisplayPhoto from "../../assets/Dp1.jpg"
 
 
 const DisplayPicture=()=>{
