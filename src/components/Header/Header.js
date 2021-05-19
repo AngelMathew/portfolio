@@ -11,17 +11,17 @@ const Header=()=>{
        }
 
     return(<div className={styles.header}>
-        <div className={styles.textClass}><a href="/portfolio" aria-label="home"><img src={Logo}></img></a></div>
+        <div className={styles.textClass}><a href="/portfolio" aria-label="home"><img src={Logo} alt="Logo Image"></img></a></div>
         
         <ul className={styles.mainNavLink}>
-            <li className={styles.navLinks}> <a  href="/portfolio"
+            <li className={styles.navLinks}> <a  href="/portfolio"  aria-label="about"
             className={
               currentPath === "/portfolio/"
                 ? styles.navLink + " " + styles.selected
                 : styles.navLink
             }>About</a></li>
             <li className={styles.navLink}>
-                <a onClick={()=>scrollToBottom()}>Contact</a></li>
+                <a onClick={()=>scrollToBottom()}  aria-label="contact">Contact</a></li>
         </ul>
     </div>)
 

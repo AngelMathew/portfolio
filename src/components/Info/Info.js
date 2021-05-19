@@ -2,11 +2,11 @@ import React,{useEffect} from "react";
 import * as styles from "./Info.module.scss";
 import DisplayPicture from "../../components/DisplayPicture/DisplayPicture";
 import Button from "../Button/Button";
-import Timeline from "../Timeline/Timeline";
 import Skillset from "../../components/Skillset/Skillset";
-import Arrow from "../../assets/Arrow.svg";
+import Experience from "../../components/Experience/Experience";
 import AOS from 'aos';
 import "aos/dist/aos.css";
+import Wave from "../../assets/wave.svg";
 
 const Info=()=>{
     useEffect(() => {
@@ -19,7 +19,14 @@ const Info=()=>{
         <>
             <div className={styles.info}  data-aos="fade-in">
                 <div className={styles.infoSummary}>
-                    <h4>Hi there <div className={styles.wave}>👋</div> ! my name is </h4>
+                    <div>
+                    <h5>Hi there 
+                        <div  className={styles.wave} >
+                            <img alt="Waving hand"  src={Wave}></img>
+                        </div>
+                       ! my name is 
+                    </h5>
+                    </div>
                     <h1>Angel  Anna Mathew</h1>
                     <br></br>
                     <p>
@@ -31,7 +38,8 @@ const Info=()=>{
                 <DisplayPicture/>
             </div>
             <Skillset/>
-            <Timeline/>
+            <Experience/>
+            {/* <Timeline/> */}
         </>
     )
 }
