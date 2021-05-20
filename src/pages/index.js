@@ -13,7 +13,7 @@ const IndexPage = () => {
 
      {/* <Main path="/"/>  */}
      <Router basepath="/">
-          <Home path="/"/> 
+          <Home path="/home"/> 
           </Router>
               
 
