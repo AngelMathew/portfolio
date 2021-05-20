@@ -12,9 +12,9 @@ const IndexPage = () => {
       <title>Angel Anna Mathew</title>
 
      {/* <Main path="/"/>  */}
-     <Router basepath="/">
-          <Home path="/home"/> 
-          </Router>
+     {/* <Router basepath="/"> */}
+          <Home/> 
+          {/* </Router> */}
               
 
      
