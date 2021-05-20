@@ -1,6 +1,9 @@
 import * as React from "react";
+import Main from "../pages/main";
 import Home from "../pages/home";
-import { Route, Switch, HashRouter } from "react-router-dom";
+import { Router } from "@reach/router";
+
+// import { Route, Switch, HashRouter } from "react-router-dom";
 // markup
 const IndexPage = () => {
   return (
@@ -8,15 +11,15 @@ const IndexPage = () => {
     <main>
       <title>Angel Anna Mathew</title>
 
-      <HashRouter basename="/">
-      <Route
-                path="/home"
-                render={() => <Home/> }
-              />
+     {/* <Main path="/"/>  */}
+     <Router basepath="/">
+          <Home path="/"/> 
+          </Router>
+              
 
-      </HashRouter>
+     
     </main>
   )
 }
 
-export default IndexPage
+export default IndexPage;

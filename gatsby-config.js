@@ -6,7 +6,7 @@ module.exports = {
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: 'React go',
+      name: `Gatsby client-side routing only`,
       short_name: 'Reactgo',
       start_url: '/',
       background_color: '#f7f0eb',
