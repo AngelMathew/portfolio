@@ -17,7 +17,7 @@ const Info=()=>{
       }, []);
     return(
         <>
-            <div className={styles.info}  data-aos="fade-in">
+            <div className={styles.info}>
                 <div className={styles.infoSummary}>
                     <div>
                     <h5>Hi there 
