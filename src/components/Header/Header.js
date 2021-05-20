@@ -11,12 +11,12 @@ const Header=()=>{
        }
 
     return(<div className={styles.header}>
-        <div className={styles.textClass}><a href="/portfolio" aria-label="home"><img src={Logo} alt="Logo Image"></img></a></div>
+        <div className={styles.textClass}><a href="#/home" aria-label="home"><img src={Logo} alt="Logo Image"></img></a></div>
         
         <ul className={styles.mainNavLink}>
-            <li className={styles.navLinks}> <a  href="/portfolio"  aria-label="about"
+            <li className={styles.navLinks}> <a  href="/home"  aria-label="about"
             className={
-              currentPath === "/portfolio/"
+              currentPath === "/home/"
                 ? styles.navLink + " " + styles.selected
                 : styles.navLink
             }>About</a></li>
