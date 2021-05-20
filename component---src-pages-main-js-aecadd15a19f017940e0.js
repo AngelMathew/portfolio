@@ -1,0 +1,2 @@
+(self.webpackChunkmy_gatsby_site=self.webpackChunkmy_gatsby_site||[]).push([[450],{4570:function(e,t,a){"use strict";a.r(t);var n=a(7294),u=a(81),r=a(9499);t.default=function(){return n.createElement(n.Fragment,null,n.createElement(r.Router,{basepath:"/"},n.createElement(u.default,{path:"/home"})))}}}]);
+//# sourceMappingURL=component---src-pages-main-js-aecadd15a19f017940e0.js.map
