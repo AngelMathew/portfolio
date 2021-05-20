@@ -19,7 +19,7 @@ const Skillset=()=>{
             <img className={styles.backgroundImage} src={Vector} alt="Background"></img>
             <h2>About</h2>
             <span>
-            I hail from a small coastal region called Kerala in India,  and for the last few years, I’ve been in Canada. 
+            I hail from a small coastal region called Kerala in India,  and for the last few years I’ve been living in Canada. 
             Before Bell, I did Master of Engineering degree in Inter-networking at Dalhousie University (Dal), Halifax. 
             Besides my studies at Dal, I also worked as a Python Lab assistant, helping students with Python language, Flask framework, and Git version control. 
             </span>
